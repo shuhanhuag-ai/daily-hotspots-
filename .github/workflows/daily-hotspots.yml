@@ -1,0 +1,31 @@
+name: Daily Hotspots
+
+on:
+  schedule:
+    # 01:00 UTC = 09:00 China Standard Time
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate report
+        working-directory: outputs/hotspot-workflow
+        run: |
+          python hotspot_report.py
+
+      - name: Commit report
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: add daily hotspot report"
+          file_pattern: outputs/hotspot-workflow/reports/*.md outputs/hotspot-workflow/data/*.json
