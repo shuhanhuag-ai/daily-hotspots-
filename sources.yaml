@@ -1,0 +1,43 @@
+# Hotspot sources.
+#
+# Beginner-friendly default:
+# The workflow requests this URL for each source:
+# https://uapis.cn/api/v1/misc/hotboard?type={id}
+#
+# Later, if you self-host DailyHotApi, you can switch url_template to:
+# "http://127.0.0.1:6688/{id}"
+url_template: "https://uapis.cn/api/v1/misc/hotboard?type={id}"
+top_n_per_source: 20
+timeout_seconds: 20
+
+sources:
+  - id: weibo
+    name: 微博热搜
+    category: 社交
+  - id: zhihu
+    name: 知乎热榜
+    category: 社区
+  - id: baidu
+    name: 百度热搜
+    category: 搜索
+  - id: bilibili
+    name: B站热门
+    category: 视频
+  - id: douyin
+    name: 抖音热点
+    category: 短视频
+  - id: toutiao
+    name: 今日头条
+    category: 资讯
+  - id: thepaper
+    name: 澎湃新闻
+    category: 新闻
+  - id: ithome
+    name: IT之家
+    category: 科技
+  - id: juejin
+    name: 稀土掘金
+    category: 技术
+  - id: 36kr
+    name: 36氪
+    category: 商业
