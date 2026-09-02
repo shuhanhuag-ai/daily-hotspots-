@@ -1,0 +1,165 @@
+{
+  "generated_at": "2026-09-02T05:30:09+00:00",
+  "url_template": "https://uapis.cn/api/v1/misc/hotboard?type={id}",
+  "base_url": "",
+  "items": [
+    {
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "category": "科技",
+      "rank": 1,
+      "title": "华为、小米、荣耀手机今日集体涨价，魅族科技宣布再坚持一个月、十一后涨价",
+      "hot": "",
+      "url": "https://www.ithome.com/0/996/959.htm",
+      "desc": ""
+    },
+    {
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "category": "科技",
+      "rank": 2,
+      "title": "苹果官网更新：约翰 · 特努斯正式出任首席执行官，蒂姆 · 库克转任董事会执行主席",
+      "hot": "",
+      "url": "https://www.ithome.com/0/997/096.htm",
+      "desc": ""
+    },
+    {
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "category": "科技",
+      "rank": 3,
+      "title": "苹果新任 CEO 特努斯微博头像太糊引网友吐槽，运营团队“光速”更换高清素材",
+      "hot": "",
+      "url": "https://www.ithome.com/0/997/206.htm",
+      "desc": ""
+    },
+    {
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "category": "科技",
+      "rank": 4,
+      "title": "16+512G 3999 元：小米 15 Ultra 国补限地区，骁龙 8 至尊 + 徕卡 2 亿长焦",
+      "hot": "",
+      "url": "https://www.ithome.com/0/997/037.htm",
+      "desc": ""
+    },
+    {
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "category": "科技",
+      "rank": 5,
+      "title": "苹果 iPhone 18 Pro Max 和首款折叠 iPhone Ultra 机模曝光",
+      "hot": "",
+      "url": "https://www.ithome.com/0/997/205.htm",
+      "desc": ""
+    },
+    {
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "category": "科技",
+      "rank": 6,
+      "title": "宇树科技员工爆料公司管理细节：百元报销都需要 CEO 王兴兴批，小到螺丝钉长度都亲自过问",
+      "hot": "",
+      "url": "https://www.ithome.com/0/997/063.htm",
+      "desc": ""
+    },
+    {
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "category": "科技",
+      "rank": 7,
+      "title": "苹果新 CEO 特努斯首封内部信：iPhone 18 Pro / Max 发布会必将惊艳四座",
+      "hot": "",
+      "url": "https://www.ithome.com/0/997/195.htm",
+      "desc": ""
+    },
+    {
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "category": "科技",
+      "rank": 8,
+      "title": "小米、华为发布会撞档，消息称 Mate 90 系列年度旗舰手机计划提前登场",
+      "hot": "",
+      "url": "https://www.ithome.com/0/997/255.htm",
+      "desc": ""
+    },
+    {
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "category": "科技",
+      "rank": 9,
+      "title": "苹果新任 CEO 特努斯入驻微博、X 平台，首条博文向网友问好",
+      "hot": "",
+      "url": "https://www.ithome.com/0/997/187.htm",
+      "desc": ""
+    },
+    {
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "category": "科技",
+      "rank": 10,
+      "title": "小米澎湃 HyperOS 4 超级小爱交互焕新：动效实时反馈、任务上岛运行",
+      "hot": "",
+      "url": "https://www.ithome.com/0/996/899.htm",
+      "desc": ""
+    },
+    {
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "category": "科技",
+      "rank": 11,
+      "title": "网友称抖音推荐内容“误入中老年频道”，客服回应在加急排查",
+      "hot": "",
+      "url": "https://www.ithome.com/0/996/887.htm",
+      "desc": ""
+    },
+    {
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "category": "科技",
+      "rank": 12,
+      "title": "罗永浩吐槽新能源车企 AI 大模型“垃圾”，试了数十辆车无一家接入完整版 Top 大模型",
+      "hot": "",
+      "url": "https://www.ithome.com/0/997/133.htm",
+      "desc": ""
+    }
+  ],
+  "errors": [
+    {
+      "source": "微博热搜",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "知乎热榜",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "百度热搜",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "B站热门",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "抖音热点",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "今日头条",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "澎湃新闻",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "稀土掘金",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "36氪",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ]
+}
